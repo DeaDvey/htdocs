@@ -1,10 +1,9 @@
 let div = document.getElementById('main');
-let divText = div.textContent || div.innerText;
+let divText = div.innerHTML;
 
 console.log(divText);
 
-let newPageHTML = `<!DOCTYPE html>
-<html>
+let newPageHTML = `
     <head>
         <meta charset="UTF-8"/>
         <title>DeaDvey's Domain</title>
@@ -12,15 +11,14 @@ let newPageHTML = `<!DOCTYPE html>
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-        <div class="header">
-            <img class="header-image" width="400px" src="header-image.png"></img>
+        <div class="header main">
+            <img class="header-image" /><br/><a href="https://deadvey.xyz">Home page</a> <a href="../blog">Blogs</a> <a href="../videos">Videos</a><hr/>
         </div>
         <div class="main">
             ${divText}
         </div>
         <div class="footer">
         </div>
-    </body>
-</html>`
+    </body>`
 
 document.body.innerHTML = newPageHTML

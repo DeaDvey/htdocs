@@ -12,3 +12,28 @@
 body {
 	background-color: #4C4E52;
 }
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+* {
+    scrollbar-color: #00ffe4 #ff0000;
+}
+
+a:link {
+    color: fuchsia;
+    text-decoration: none;
+}
+a:visited {
+    color: orange;
+    text-decoration: none;
+}
+a:hover {
+    color: lime;
+    text-decoration: none;
+}
+a:active {
+    color: pink;
+    text-decoration: none;
+}
