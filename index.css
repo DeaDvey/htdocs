@@ -1,0 +1,14 @@
+.main {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-left: auto;
+}
+.header-image {
+	content: url("header-image.png");
+	width: 400px;
+}
+
+body {
+	background-color: #4C4E52;
+}
