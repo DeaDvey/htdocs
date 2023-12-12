@@ -2,7 +2,7 @@
 	display: block;
 	text-align: center;
 	margin-left: auto;
-	margin-left: auto;
+	margin-right: auto;
 }
 .header-image {
 	content: url("header-image.png");
@@ -36,4 +36,18 @@ a:hover {
 a:active {
     color: pink;
     text-decoration: none;
+}
+
+.blog-content {
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+    width: 500px;
+}
+
+.footer {
+    display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }

@@ -20,6 +20,17 @@ let newPageHTML = `
             ${divText}
         </div>
         <div class="footer">
+            <hr/>
+            <li>
+                Internal:
+                <li><a href="theunderlandcouk" >theunderland webpages (internal link)</a></li>
+                <li><a href="experiments.html" >Experiments (internal link)</a></li>
+                <br/>
+                External:
+                <li><a href="https://github.com/DeaDvey" >Github (external link)</a></li>
+                <li><a href="https://gitlab.com/deadvey" >Gitlab (external link)</a></li>
+                <li><a href="https://mastodon.social/@DeaDvey" >Mastadon.social (external link)</a></li>
+            </li>
         </div>
     </body>
 </html>`
