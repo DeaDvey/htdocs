@@ -10,7 +10,7 @@ let newPageHTML = `
         <meta charset="UTF-8"/>
         <title>DeaDvey's Domain</title>
         <link rel="icon" href="../favicon.png">
-        <link rel="stylesheet" type="text/css" href="http://deadvey.com/index.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
         <div class="header main">
