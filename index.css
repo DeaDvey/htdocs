@@ -4,9 +4,15 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+@media screen and (min-width: 480px) {
+	.main {
+		width: 500px;
+	}
+}
+
 .header-image {
 	content: url("header-image.png");
-	width: 400px;
+	width: 100%;
 }
 
 body {
@@ -38,12 +44,12 @@ a:active {
     text-decoration: none;
 }
 
-.blog-content {
+/*.blog-content {
     text-align: center;
     margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
     width: 500px;
-}
+}*/
 
 .footer {
     display: block;
