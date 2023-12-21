@@ -18,8 +18,9 @@ let newPageHTML = `
     </head>
     <body>
         <div class="header main">
-            <img class="header-image" /><br/><a href="../index.html">Home page</a> <a href="/blog/index.html">Blogs</a> <a href="/videos/index.html">Videos</a><hr/>
+            <img class="header-image" /><br/><a href="../index.html">Home page</a> <a href="/blog/index.html">Blogs</a> <a href="/videos/index.html">Videos</a>
         </div>
+        <hr/>
         <div class="main">
             ${divText}
             <div id="links">
@@ -47,7 +48,7 @@ document.body.innerHTML = newPageHTML  //apply the template
 //     ADD THE LINKS
 ///////////////////////////
 
-function loadContent(page, content, header) {
+function loadContent(page, content, header, date) {
     console.log(page)
     let blogText = content
     console.log(blogText)
@@ -62,9 +63,11 @@ function loadContent(page, content, header) {
         </head>
         <body>
             <div class="header main">
-                <img class="header-image" /><br/><a href="../index.html">Home page</a> <a href="/blog/index.html">Blogs</a> <a href="/videos/index.html">Videos</a><hr/>
+                <img class="header-image" /><br/><a href="../index.html">Home page</a> <a href="/blog/index.html">Blogs</a> <a href="/videos/index.html">Videos</a>
             </div>
+            <hr/>
             <div class="main">
+                <h3 class="blog-date">${date}</h3>
                 <h1 class="blog-title">${header}</h1>
                 <p class="blog-content">${content}</p>
                 <div id="links">
@@ -106,6 +109,7 @@ function escapeQuotes(value) {
         }
     });
 }
+console.log(blogs)
 let linksDiv = document.getElementById("links")
 
 let linksText
@@ -115,7 +119,7 @@ let length = blogs.length
 for (let page = 0; page < length; page++) {
     console.log(length)
 
-    linksText += (`<li><a href='#' onclick='loadContent(${page}, "${escapeQuotes(blogs[page][1])}", "${escapeQuotes(blogs[page][0])}")'>${escapeQuotes(blogs[page][0])}</a></li>`)
+    linksText += (`<li><a href='#' onclick='loadContent(${page}, "${escapeQuotes(blogs[page][1])}", "${escapeQuotes(blogs[page][0])}", "${escapeQuotes(blogs[page][2])}")'>${escapeQuotes(blogs[page][0])}</a> ${escapeQuotes(blogs[page][2])}</li>`)
 }
 
 linksText = linksText.slice(9) //Remove the "undefined" at the start of the string
