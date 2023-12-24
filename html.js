@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+let pageTop = `<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8"/>
@@ -13,12 +13,9 @@
         </div>
         <hr/>
         <div class="main">
+`
 
-                <h3 class="blog-date">Sun, 10 Dec 2023 12:00:00</h3>
-                <h1 class="blog-title">Test post2</h1>
-                <p class="blog-content">Testicy Test</p>
-                <div id="links">
-                </div></div>
+let pageBottom = `</div>
         <div class="footer">
             <hr/>
             <li>
@@ -33,4 +30,13 @@
             </li>
         </div>
     </body>
-</html>
+</html>`
+
+if (typeof module !== 'undefined' && module.exports) {
+	module.exports = {
+		pageTop,
+		pageBottom
+	}
+}
+
+
