@@ -4,35 +4,37 @@
       <title>DeaDvey</title>
       <link>https://deadvey.com</link>
       <description>Just talking about life and stuff I guess</description>
+      <pubDate>Sun, 24 Dec 2023 00:01:23 +0000</pubDate>
+      <lastBuildDate>Sun, 24 Dec 2023 00:01:23 +0000</lastBuildDate>
       <item>
-         <title>Test post</title>
-         <link>https://deadvey.com/blog/blogs/0.html</link>
-         <description>Testy test!</description>
-         <pubDate>Sun, 10 Dec 2023 12:00:00</pubDate>
-      </item>
-      <item>
-         <title>Test post2</title>
-         <link>https://deadvey.com/blog/blogs/1.html</link>
-         <description>Testicy Test</description>
-         <pubDate>Sun, 10 Dec 2023 12:00:00</pubDate>
-      </item>
-      <item>
-         <title>I didn&#39;t like Wordpress</title>
-         <link>https://deadvey.com/blog/blogs/2.html</link>
-         <description>So... Yeah, I didn&#39;t like wordpress very much, it&#39;s pretty clunky and I don&#39;t have much control over the webpage, and it&#39;s kinda not that fun to use, I&#39;m glad I tried it out though because I kind of know how to use it know I suppose, I might copy over the wordpress back over to this so I can use it myself for fun I suppose.</description>
-         <pubDate>Mon, 11 Dec 2023 12:00:00</pubDate>
+         <title>RSS feeds and Star Wars Squadrons</title>
+         <link>https://deadvey.com/blog/blogs/4.html</link>
+         <description>Hey people (person(me)), I just updated my website to have an &lt;a href=&#39;https://en.wikipedia.org/wiki/RSS&#39;&gt;RSS Feed&lt;/a&gt; so that I can read them in Fluent Reader or Nextcloud News, the two RSS readers I use mostly, I cannot get them all to show up in Nextcloud News however, only the most recent one, maybe an issue with the formating? Ah well, I&#39;ll try troubleshoot that I guess.  Secondly, I recently got the game &lt;a href=&#39;https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/&#39;&gt;Star Wars Squadrons&lt;/a&gt; on my PC after already having played it on my PS4 and I was surprised at the poor reviews, I always found the game really fun and the integrated HUD really fun to use, guess I just am different lol, anyway&lt;br/&gt; Fly You High - DeaDvey&lt;br/&gt;&lt;img src=&#39;https://cdn.cloudflare.steamstatic.com/steam/apps/1222730/header.jpg?t=1662047498&#39; /&gt;</description>
+         <pubDate>Sun, 24 Dec 2023 00:01:23 +0000</pubDate>
       </item>
       <item>
          <title>Late December Update Before Christmas</title>
          <link>https://deadvey.com/blog/blogs/3.html</link>
          <description>Hey guys, so I have been trying out Nextcloud since I did the last blog and I really like it, it&#39;s very good, the calendar especially, I think I definately prefer it to Proton Drive and Calendar because it&#39;s way better intergreated in to apps and stuff, there&#39;s also apps for it on the Ubuntu Touch store, which lacks Proton apps, the notes are also great as is the RSS reader that I can sync.  Secondly, I have also began watching Attack on Titan again as my freind has been going on about it, I&#39;m readig the Manga but it is so slow, so I&#39;ll probably keep watching the Animé which I like.  Christmas is in a few days and we break up tommorow which is pretty exiting and I&#39;ll see some family, I think I&#39;m getting the &lt;a href=&#39;https://www.raspberrypi.com/products/raspberry-pi-5/&#39;&gt;Raspberry Pi 5&lt;/a&gt; which is cool.  Finally, I got the &lt;a href=&#39;https://store.steampowered.com/app/582160/Assassins_Creed_Origins/&#39;&gt;Assassins Creed Origins game&lt;/a&gt; which I already had on PS4 but now I have on Steam because it was on sale, but I can&#39;t get it to work so I&#39;ll have to figure that out over the weekend, anyway, that is probably it for today.&lt;br/&gt;Fly You High - DeaDvey&lt;br/&gt;&lt;img src=&#39;https://searx.be/image_proxy?url=https%3A%2F%2Fi.pinimg.com%2F236x%2Fc5%2F7f%2Fe1%2Fc57fe1d506c6a3aa53bd953199b7ea9f.jpg&amp;h=60634c3b8432ca80d66386441593891a87a58ae6ec4810c40a64a665b0e677fc&#39; height=&#39;200&#39; alt=&#39;An image of Assassins Creed Origins&#39; /&gt;&lt;img src=&#39;https://upload.wikimedia.org/wikipedia/commons/9/98/23551-Raspberry-Pi-5-8G-feature.jpg&#39; height=&#39;200&#39; alt=&#39;An image of a Raspberry Pi 5&#39;/&gt;</description>
-         <pubDate>Thu, 21 Dec 2023 12:00:00</pubDate>
+         <pubDate>Thu, 21 Dec 2023 12:00:00 +0000</pubDate>
       </item>
       <item>
-         <title>RSS feeds and Star Wars Squadrons</title>
-         <link>https://deadvey.com/blog/blogs/4.html</link>
-         <description>Hey people (person(me)), I just updated my website to have an &lt;a href=&#39;https://en.wikipedia.org/wiki/RSS&#39;&gt;RSS Feed&lt;/a&gt; so that I can read them in Fluent Reader or Nextcloud News, the two RSS readers I use mostly, I cannot get them all to show up in Nextcloud News however, only the most recent one, maybe an issue with the formating? Ah well, I&#39;ll try troubleshoot that I guess.  Secondly, I recently got the game &lt;a href=&#39;https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/&#39;&gt;Star Wars Squadrons&lt;/a&gt; on my PC after already having played it on my PS4 and I was surprised at the poor reviews, I always found the game really fun and the integrated HUD really fun to use, guess I just am different lol, anyway&lt;br/&gt; Fly You High - DeaDvey&lt;br/&gt;&lt;img src=&#39;https://cdn.cloudflare.steamstatic.com/steam/apps/1222730/header.jpg?t=1662047498&#39; /&gt;</description>
-         <pubDate>Sun, 24 Dec 2023 00:01:23</pubDate>
+         <title>I didn&#39;t like Wordpress</title>
+         <link>https://deadvey.com/blog/blogs/2.html</link>
+         <description>So... Yeah, I didn&#39;t like wordpress very much, it&#39;s pretty clunky and I don&#39;t have much control over the webpage, and it&#39;s kinda not that fun to use, I&#39;m glad I tried it out though because I kind of know how to use it know I suppose, I might copy over the wordpress back over to this so I can use it myself for fun I suppose.</description>
+         <pubDate>Mon, 11 Dec 2023 12:00:00 +0000</pubDate>
+      </item>
+      <item>
+         <title>Test post2</title>
+         <link>https://deadvey.com/blog/blogs/1.html</link>
+         <description>Testicy Test</description>
+         <pubDate>Sun, 10 Dec 2023 12:00:00 +0000</pubDate>
+      </item>
+      <item>
+         <title>Test post</title>
+         <link>https://deadvey.com/blog/blogs/0.html</link>
+         <description>Testy test!</description>
+         <pubDate>Sun, 10 Dec 2023 12:00:00 +0000</pubDate>
       </item>
    </channel>
 </rss>
