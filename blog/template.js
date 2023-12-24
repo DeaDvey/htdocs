@@ -18,7 +18,8 @@ let newPageHTML = `
     </head>
     <body>
         <div class="header main">
-            <img class="header-image" /><br/><a href="../index.html">Home page</a> <a href="/blog/index.html">Blogs</a> <a href="/videos/index.html">Videos</a>
+              <img class="header-image" /><br/><a href="http://deadvey.com">Home page</a> | <a href="index.html">Blogs</a> <a href="feed.xml"><img width="16" src="../feedIcon.png" /></a> | <a href="../videos/index.html">Videos</a>
+
         </div>
         <hr/>
         <div class="main">
@@ -63,7 +64,8 @@ function loadContent(page, content, header, date) {
         </head>
         <body>
             <div class="header main">
-                <img class="header-image" /><br/><a href="../index.html">Home page</a> <a href="/blog/index.html">Blogs</a> <a href="/videos/index.html">Videos</a>
+                    <img class="header-image" /><br/><a href="http://deadvey.com">Home page</a> | <a href="index.html">Blogs</a> <a href="feed.xml"><img width="16" src="../feedIcon.png" /></a> | <a href="../videos/index.html">Videos</a>
+
             </div>
             <hr/>
             <div class="main">
