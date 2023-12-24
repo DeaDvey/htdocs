@@ -114,16 +114,15 @@ function escapeQuotes(value) {
 console.log(blogs)
 let linksDiv = document.getElementById("links")
 
-let linksText
+let linksText = "<li><a href='blogs/all.html'>ALL POSTS</a></li><br/>"
 
 let length = blogs.length
 
-for (let page = 0; page < length; page++) {
+for (let page = blogs.length - 1; page >= 0; page--) {
     console.log(length)
 
-    linksText += (`<li><a href='#' onclick='loadContent(${page}, "${escapeQuotes(blogs[page][1])}", "${escapeQuotes(blogs[page][0])}", "${escapeQuotes(blogs[page][2])}")'>${escapeQuotes(blogs[page][0])}</a> ${escapeQuotes(blogs[page][2])}</li>`)
+    linksText += (`<li><a href='blogs/${page}.html'>${escapeQuotes(blogs[page][0])}</a></li>`)
 }
 
-linksText = linksText.slice(9) //Remove the "undefined" at the start of the string
 
 document.getElementById("links").innerHTML = linksText;
