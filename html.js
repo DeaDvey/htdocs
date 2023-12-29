@@ -10,7 +10,7 @@ let pageTop = `<!DOCTYPE html>
         <div class="header main">
               <img class="header-image" /><br/>
               <a href="/" onclick="history.back()"><img src="/images/return.png" width="20" />Return</a> | 
-<a href="/index.html">Home page</a> | <a href="/blog/index.html">Blogs</a> <a href="feed.xml"><img width="16" src="/images/feedIcon.png" class="feedicon"/></a> | <a href="/video/index.html">Videos</a>
+<a href="/">Home page</a> | <a href="/blog/index.html">Blogs</a> <a href="feed.xml"><img width="16" src="/images/feedIcon.png" class="feedicon"/></a> | <a href="/video/index.html">Videos</a><input type="text" id="clickableInput" onclick="goToLink('/search')" placeholder="Click to search">
 
         </div>
         <hr/>
@@ -43,4 +43,6 @@ if (typeof module !== 'undefined' && module.exports) {
 	}
 }
 
-
+function goToLink(link) {
+            window.location.href = link
+}
