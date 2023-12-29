@@ -6,3 +6,7 @@ console.log(divText);
 let newPageHTML = `${pageTop}${divText}${pageBottom}`
 
 document.body.innerHTML = newPageHTML
+
+function goToLink(link) {
+            window.location.href = link
+}

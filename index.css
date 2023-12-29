@@ -75,3 +75,44 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  .user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+  }
+
+  .card {
+    padding: .5rem;
+    overflow: hidden;
+  }
+
+  .card > .header {
+    margin-bottom: .25rem;
+  }
+
+  .card > .search-body {
+    font-size: .8rem;
+    width: 10;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  
+

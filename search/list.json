@@ -1,0 +1,44 @@
+[
+     {
+        "id": 0,
+        "name": "Test post",
+        "tags": "Test",
+        "link": "/blog/blogs/0.html"
+     },
+     {
+        "id": 1,
+        "name": "Test post2",
+        "tags": "Test",
+        "link": "/blog/blogs/1.html"
+     },
+     {
+        "id": 2,
+        "name": "I didn't like Wordpress",
+        "tags": "Wordpress,html,control",
+        "link": "/blog/blogs/2.html"
+     },
+     {
+        "id": 3,
+        "name": "Late December Update Before Christmas",
+        "tags": "Christmas,Raspberry,pi,Nextcloud",
+        "link": "/blog/blogs/3.html"
+     },
+     {
+        "id": 4,
+        "name": "RSS feeds and Star Wars Squadrons",
+        "tags": "RSS,Sqaudrons,Star Wars,News",
+        "link": "/blog/blogs/4.html"
+     },
+     {
+        "id": 5,
+        "name": "Merry Christmas!",
+        "tags": "Christmas,monitor,keyboard,sticker,mug,power bank",
+        "link": "/blog/blogs/5.html"
+     },
+     {
+        "id": 6,
+        "name": "Homemade laptop, Nextcloud and possible updates to website",
+        "tags": "Nextcloud,Website,VNC,Laptop,Maps",
+        "link": "/blog/blogs/6.html"
+     }
+]
