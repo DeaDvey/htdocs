@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="shortcut icon" href="wraithfate.ico" />
+        <link rel="stylesheet" type="text/css" href="./game.css" />
+        <title>Wraithfate</title>
+    </head>
+
+    <body class="body">
+      
+      
+      <table class="locationTableFull">
+	<tr>
+	  <!--skills branch of the table-->
+	  <td class="locationTableData skillsSectionOfLocationBasedTable">
+	    
+	    <div class="imageContainer">
+	      Skills
+	       <img class="miningImage locationImageBox" src="fe" />
+	       <img class="wcImage locationImageBox" src="fe" />
+	       <img class="cardioImage locationImageBox" src="fe" />
+	       <img class="fightingImage locationImageBox" src="fe" />
+	       <img class="fishingImage locationImageBox" src="fe" />
+	       <img class="cookingImage locationImageBox" src="fe" />
+	       <img class="smeltImage locationImageBox" src="fe" />
+	       <img class="smithImage locationImageBox" src="fe" />
+	       <img class="healthImage locationImageBox" src="fe" />
+	       <img class="defenceImage locationImageBox" src="fe" />
+	    </div>
+	    
+	  </td>
+
+	  <!--bosses and misc!-->
+	  <td class="locationTableData bossesAndMiscSectionOfLocationBasedTable">
+	    
+	    <div class="imageContainer">
+	      Bosses and misc
+	       <img class="boubaImage locationImageBox" src="fe" />
+	       <img class="boulevardImage locationImageBox" src="fe" />
+	       <img class="brightsideImage locationImageBox" src="fe" />
+	       <img class="cemetaryGatesImage locationImageBox" src="fe" />
+	       <img class="frostbiteImage locationImageBox" src="fe" />
+	       <img class="kikiImage locationImageBox" src="fe" />
+	       <img class="neonTigerImage locationImageBox" src="fe" />
+	       <img class="pompeiiImage locationImageBox" src="fe" />
+	       <img class="humanCityImage locationImageBox" src="fe" />
+	       <img class="orcCityImage locationImageBox" src="fe" />
+	    </div>
+	    
+	  </td>
+	  
+	</tr>
+      </table>
+
+      
+        <div class="outerestContainer">
+        <div class="outerContainer">
+
+
+
+
+
+
+
+	  
+	  
+
+
+
+
+        <div class="sideBySideTop">
+        <div class="JSElements">
+        <!--all hidden elements for JS-->
+
+        
+	
+        <!--play screen-->
+        <button class="travelButton playButton hideThis" onclick='travel()'>Travel</button>
+        <button class="skillButton playButton hideThis" onclick='skill()'>Skill</button>
+        <button class="bossButton playButton hideThis" onclick='boss()'>Boss</button>
+        <button class="viewInventoryButton playButton hideThis" onclick='invDisplay()'>View Inventory</button>
+        <button class="moneyButton playButton hideThis" onclick='displayMoney()'>Money</button>
+        <button class="levelStatsButton playButton hideThis" onclick='stats();'>Stats</button>
+        <button class="generalShopButton playButton hideThis" onclick='generalShop_buyOrSell();'>General Shop (not working)</button>
+        <button class="bankButton playButton hideThis" onclick='bank_outOrIn();'>Bank (work in progress)</button>
+        <button class="dropButton playButton hideThis" onclick='drop();'>Drop</button>
+        <button class="healthButton playButton hideThis" onclick='displayHealth();'>Health</button>
+        <button class="eatButton playButton hideThis" onclick='displayEat();'>Eat</button>
+	<button class="npcButton playButton hideThis" onclick='chatNPC();'>NPCs</button>
+
+	<!--Weird ones-->
+	<button class="boatButton playButton hideThis" onclick='getOnBoat()'>Boat - <img width='10' src='sussyBakaCoin.png'/>10</button>
+        <button class="burnDownTreesButton playButton hideThis" onclick='useFireStarter();'>Burn down tree</button>
+        <button class="fillFireStarterButton playButton hideThis" onclick='fillFireStarter();'>Fill Fire Starter</button>
+        <button class="digForWormsButton playButton hideThis" onclick='addToInvArray("bait"); removeAll(); save(); log("Got worms"); play();'>Dig for worms</button>
+
+	<br class="hideThis generalBR" /> <!--shows a BR when activated (shown) in jquery-->
+
+	<!--This is a div which will hold all the buttons in teh first layer when talking with NPCs-->
+	<div class="NPCButtons hideThis">
+	</div>
+	  
+
+	<!--bank in/out buttons -->
+	<button class="hideThis bankOut" onclick='bank(`Out`);'>Take Out of Bank</button>
+	<button class="hideThis bankIn" onclick='bank(`In`);'>Put into Bank</button>
+
+        <!--travel screen-->
+        <br/>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Ol Greth`, travelLocType = [`humanCity`, `city`], save(); removeAll(); log(`You traveled to Ol Greth`); exPoints--; save(); play(); removeAll()'>Ol Greth</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Gemeroth`, travelLocType = [`humanCity`, `city`], save(); removeAll(); log(`You traveled to Gemeroth`); exPoints--; save(); play(); removeAll()'>Gemeroth</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Axeldom Town`, travelLocType = [`humanCity`, `city`], save(); removeAll(); log(`You traveled to  Axeldom`); exPoints--; save(); play(); removeAll()'>Axeldom Town</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Contherium`, travelLocType = [`humanCity`, `city`], save(); removeAll(); log(`You traveled to  Contherium`); exPoints--; save(); play(); removeAll()'>Contherium - Capital</button>
+        <br class="hideThis travelScreenButton"/>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Vermith`, travelLocType = [`orcCity`, `city`, `fighting`], save(); removeAll(); log(`You traveled to Vermith`); exPoints--; save();  play(); removeAll()'>Vermith</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Tysak`, travelLocType = [`orcCity`, `city`, `fighting`], save(); removeAll(); log(`You traveled to Tysak`); exPoints--;    save();   play(); removeAll()'>Tysak</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Talmon`, travelLocType = [`orcCity`, `city`, `fighting`],  save(); removeAll(); log(`You traveled to Talmon`); exPoints--;  save();  play(); removeAll()'>Talmon</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Kiki`,  travelLocType = [`orcCity`, `city`, `kiki`, `fighting`], save(); removeAll(); log(`You traveled to Kiki`);   exPoints--;  save();   play(); removeAll()'>Kiki</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Bouba`,  travelLocType = [`orcCity`, `city`, `bouba`, `fighting`], save(); removeAll(); log(`You traveled to Bouba`); exPoints--; save();  play(); removeAll()'>Bouba</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Darlamium`, travelLocType = [`orcCity`, `city`, `fighting`], save(); removeAll(); log(`You traveled to Darlamium`); exPoints--; save();   play(); removeAll()'>Darlamium - Capital</button>
+        <br class="hideThis travelScreenButton"/>
+
+        <button class="hideThis travelScreenButton" onclick='travelTo(`Volcano`);  save();  exPoints--;    save();     play(); removeAll()'>Volcano</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Lighthouse`,  travelLocType = [`cardio`, `boss`, `brightside`], save(); removeAll(); log(`You traveled to Lighthouse`); exPoints--; save(); play(); removeAll()'>Lighthouse</button>
+        <button class="hideThis travelScreenButton" onclick='travelTo(`Ravine`);  save(); exPoints--;    save();     removeAll()'>Ravine</button>
+        <br class="hideThis travelScreenButton"/>
+        <button class="hideThis travelScreenButton seaButton" onclick='travelLocation = `Ice Burg`,   travelLocType = [`unclassified`, `boss`, `frostbite`], save(); play(); removeAll(); log(`You traveled to Ice Burg`);        exPoints--;    save();    removeAll();'>Ice Burg</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Boulevard`,      travelLocType = [`unclassified`, `boss`, `boulevard`], save(); play(); removeAll(); log(`You traveled to Boulevard`);       exPoints--;    save();    removeAll();'>Boulevard</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Cemetary`,       travelLocType = [`unclassified`, `boss`, `cemetary gates`, `fighting`], save(); play(); removeAll(); log(`You traveled to Cemetary`);        exPoints--;    save();    removeAll();'>Cemetray</button>
+
+        <br class="hideThis travelScreenButton"/>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Sand Beach`,     travelLocType = [`fishing`],      save(); removeAll(); log(`You traveled to Sand Beach`);      exPoints--;    save();    play(); removeAll();'>Sand Beach</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `West Beach`,     travelLocType = [`fishing`],      save(); removeAll(); log(`You traveled to West Beach`);      exPoints--;    save();    play(); removeAll();'>West Beach</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `East Beach`,     travelLocType = [`fishing`],      save(); removeAll(); log(`You traveled to East Beach`);      exPoints--;    save();    play(); removeAll();'>East Beach</button>
+        <br class="hideThis travelScreenButton"/>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Sand Mine`,      travelLocType = [`mine`],         save(); removeAll(); log(`You traveled to Sand Mine`);       exPoints--;    save();    play(); removeAll();'>Sand Mine</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Talmon Mine`,    travelLocType = [`mine`],         save(); removeAll(); log(`You traveled to Talmon Mine`);     exPoints--;    save();    play(); removeAll();'>Talmon Mine</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Gemeroth Mine`,  travelLocType = [`mine`],         save(); removeAll(); log(`You traveled to Gemeroth Mine`);   exPoints--;    save();    play(); removeAll();'>Gemeroth Mine</button>
+        <br class="hideThis travelScreenButton"/>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Sand Forest`,    travelLocType = [`wc`],           save(); removeAll(); log(`You traveled to Sand Forest`);     exPoints--;    save();    play(); removeAll();'>Sand Forest</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Axeldom Forest`, travelLocType = [`wc`, `boss`, `neon tiger`],           save(); removeAll(); log(`You traveled to Axeldom Forest`);  exPoints--;    save();    play(); removeAll();'>Axeldom Forest</button>
+        <br class="hideThis travelScreenButton"/>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Wheat Farm`,     travelLocType = [`farm`],         save(); removeAll(); log(`You traveled to Wheat Farm`);      exPoints--;    save();    play(); removeAll();'>Wheat Farm</button>
+        <button class="hideThis travelScreenButton" onclick='travelLocation = `Blueberry Farm`, travelLocType = [`farm`],         save(); removeAll(); log(`You traveled to Blueberry Farm`);  exPoints--;    save();    play(); removeAll();'>Blueberry Farm</button>
+
+
+
+
+		<!--boss fights-->
+        <button class="hideThis brightsideButton bossScreenButton" onclick='removeAll(); specialRemoveHealth(10, haveShield, BRIGHTSIDEHEALTH, "brightSword(equipable)", 6); addEXP("brightside", 15); incBossCounter("brightside"); save()'>Brightside</button>
+       
+        <button class="hideThis boulevardButton bossScreenButton" onclick='removeAll(); specialRemoveHealth(15, haveShield, BOULEVARDHEALTH, "lonelyRope(equipable)", 8); addEXP("boulevard", 22); incBossCounter("boulevard"); save()'>Boulevard of Broken Dreams</button>
+
+        <button class="hideThis neonTigerButton bossScreenButton" onclick='removeAll(); specialRemoveHealth(20, haveShield, NEONTIGERHEALTH, "neonFang(equipable)", 10); addEXP("neonTiger", 30); incBossCounter("neonTiger"); save()'>Neon Tiger</button>
+        
+        <button class="hideThis kikiButton bossScreenButton" onclick='removeAll(); specialRemoveHealth(25, haveShield, KIKIHEALTH, "kikiSpike(equipable)", 15); addEXP("kiki", 35); incBossCounter("kiki"); save()'>Kiki</button>
+
+        <button class="hideThis boubaButton bossScreenButton" onclick='removeAll(); specialRemoveHealth(25, haveShield, BOUBAHEALTH, "boubaClub(equipable)", 15); addEXP("bouba", 35); incBossCounter("bouba"); save()'>Bouba</button>
+        
+        <button class="hideThis cemetaryGatesButton bossScreenButton" onclick='removeAll(); specialRemoveHealth(30, haveShield, CEMETARYGATESHEALTH, "stoneSythe(equipable)", 20); addEXP("cemetaryGates", 40); incBossCounter("cemetaryGates"); save()'>Cemetary Gates</button>
+        
+        <button class="hideThis pompeiiButton bossScreenButton" onclick='removeAll(); specialRemoveHealth(40, haveShield, POMPEIIHEALTH, "lavaGlove(equipable)", 30); addEXP("pompeii", 50); incBossCounter("pomeii"); save()'>Pompeii</button>
+        
+        <button class="hideThis frostbitButton bossScreenButton" onclick='removeAll(); specialRemoveHealth(41, haveShield, FROSTBITEHEALTH, "iceShard(equipable)", 31); addEXP("frostbite", 48); incBossCounter("frostbite"); save()'>Frostbite</button>
+
+        <!--view inventory-->
+
+        <!--<br class="hideThis invScreenButton"/>
+        <button class='hideThis invButton' onclick="equip(constVar, 'itemVarName', 'itemType')"><img width='50' src='itemSprites/itemVarName.png' onhover='Equip' /></button>
+        <span class="hideThis invNumberSpan"></span>
+        <span class="hideThis invNameSpan"></span>-->
+
+		<!--skills-->
+        
+        <button class="hideThis skillScreenButton miningButton"   onclick='mineType();'>Mine</button>
+        <button class="hideThis skillScreenButton wcButton"       onclick='wcType();'>Woodcutting</button>
+        <button class="hideThis skillScreenButton cardioButton"   onclick='cardio();'>Cardio</button>
+        <button class="hideThis skillScreenButton fightingButton" onclick='fightingType();'>Fighting</button>
+        <button class="hideThis skillScreenButton fishingButton"  onclick='fishingType();'>Fish</button>
+        <button class="hideThis skillScreenButton cookingButton"  onclick='cookingType();'>Cook</button>
+        <button class="hideThis skillScreenButton smeltingButton" onclick='smeltType();'>Smelt</button>
+        <button class="hideThis skillScreenButton smithingButton" onclick='smithType();'>Smith</button>
+        <button class="hideThis skillScreenButton farmingButton"  onclick='mineType();'>Farm</button>
+        <!--<button class="hideThis skillScreenButton wcButton"       onclick='wcType();'>Woodcutting</button>-->
+        <button class="hideThis skillScreenButton defenceButton"  onclick='defenceType();'>Defence</button>
+
+
+
+        <!--skills-->
+            <!--mining-->
+            
+            <br class="hideThis miningScreenBR"/>
+            <button class="hideThis miningScreenButton rockButton" onclick='removeAll(); addEXP(`mining`, ROCK); addToInvArray(rock); save(); log(`You mined Rock`); play();'>Rock</button>
+            <button class="hideThis miningScreenButton coalButton" onclick='removeAll(); addEXP(`mining`, COAL); addToInvArray(coal); save(); log(`You mined Coal`); play();'>Coal</button>
+            <button class="hideThis miningScreenButton tinButton" onclick='removeAll(); addEXP(`mining`, TIN); addToInvArray(tin); save(); log(`You mined Tin`); play();'>Tin</button>
+            <button class="hideThis miningScreenButton copperButton" onclick='removeAll(); addEXP(`mining`, COPPER); addToInvArray(copper); save(); log(`You mined Copper`); play();'>Copper</button>
+            <button class="hideThis miningScreenButton ironButton" onclick='removeAll(); addEXP(`mining`, IRON); addToInvArray(iron); save(); og(`You mined Iron`); play();'>Iron</button>
+            <button class="hideThis miningScreenButton diamondButton" onclick='removeAll(); addEXP(`mining`, DIAMOND); addToInvArray(diamond); save(); log(`You mined Diamond`); play();'>Diamond</button>
+            <button class="hideThis miningScreenButton goldButton" onclick='addEXP(`mining`, GOLD); addToInvArray(gold); save(); removeAll(); log(`You mined Gold`); play();'>Gold</button>
+
+            <!--woodcutting-->
+            <br class="hideThis wcScreenBR" />
+            <button class="hideThis wcScreenButton oakButton"         onclick='removeAll(); addEXP(`wc`, OAKLOG); addToInvArray(oakLog); save(); log(`You chopped an oak tree`); play();'>Oak</button>
+            <button class="hideThis wcScreenButton willowButton"      onclick='removeAll(); addEXP(`wc`, WILLOWLOG); addToInvArray(willowLog); save(); log(`You chopped a willow tree`); play();'>Willow</button>
+            <button class="hideThis wcScreenButton beechButton"       onclick='removeAll(); addEXP(`wc`, BEECHLOG); addToInvArray(beechLog); save(); log(`You chopped a beech tree`); play();'>Beech</button>
+            <button class="hideThis wcScreenButton ivyButton"         onclick='removeAll(); addEXP(`wc`, IVYLOG); addToInvArray(ivyLog); save(); log(`You chopped an ivy tree`); play();'>Ivy</button>
+            <button class="hideThis wcScreenButton palmButton"        onclick='removeAll(); addEXP(`wc`, PALMLOG); addToInvArray(palmLog); save(); log(`You chopped a palm tree`); play();'>Palm</button>
+            <button class="hideThis wcScreenButton redwoodButton"     onclick='removeAll(); addEXP(`wc`, REDWOODLOG); addToInvArray(`edwoodLog); save(); log(`You chopped a red wood tree`); play();'>Red Wood</button>
+            <button class="hideThis wcScreenButton yewButton"         onclick='removeAll(); addEXP(`wc`, YEWLOG); addToInvArray(yewLog); save(); log(`You chopped a yew tree`); play();'>Yew</button>
+            <button class="hideThis wcScreenButton dragonBloodButton" onclick='removeAll(); addEXP(`wc`, DRAGONBLOODLOG); addToInvArray(dragonBloodLog); save(); log(`You chopped a dragon blood tree`); play();'>Dragon Blood</button>
+            
+            
+            <!--cardio-->
+            <br class="hideThis cardioScreenBR" />
+            <button class="hideThis cardioScreenButton lighthouseButton" onclick='addEXP(`cardio`, LIGHTHOUSE); removeAll(); save(); log(`You ran up the Lighthouse stairs (and painfully walked back down)`); play();' >Lighthouse</button>
+            <button class="hideThis cardioScreenButton ravineButton" onclick='addEXP(`cardio`, RAVINE); removeAll(); save(); log(`You crawled (like Spider-Man) around the ravine`); play();' >Ravine</button>
+            <button class="hideThis cardioScreenButton volcanoButton" onclick='addEXP(`cardio`, VOLCANO); removeAll(); save(); log(`You slowly climbed up a Volcano (and arkwardly jogged back down)`); play();' >Volcano</button>
+
+
+	    <div class="hideThis listBankItems" id="listBankItems" ></div>
+            
+            
+            
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="rightTables"> 
+        <div>
+            <table class="invTable">
+                <tr>
+                    <td>
+                        <div class="invSlot1"></div>
+                        <button onclick="" class="invSlot1Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot2"></div>
+                        <button class="invSlot2Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot3"></div>
+                        <button class="invSlot3Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot4"></div>
+                        <button class="invSlot4Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot5"></div>
+                        <button class="invSlot5Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot6"></div>
+                        <button class="invSlot6Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot7"></div>
+                        <button class="invSlot7Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot8"></div>
+                        <button class="invSlot8Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot9"></div>
+                        <button class="invSlot9Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot10"></div>
+                        <button class="invSlot10Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot11"></div>
+                        <button class="invSlot11Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot12"></div>
+                        <button class="invSlot12Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot13"></div>
+                        <button class="invSlot13Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot14"></div>
+                        <button class="invSlot14Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot15"></div>
+                        <button class="invSlot15Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot16"></div>
+                        <button class="invSlot16Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot17"></div>
+                        <button class="invSlot17Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot18"></div>
+                        <button class="invSlot18Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot19"></div>
+                        <button class="invSlot19Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot20"></div>
+                        <button class="invSlot20Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot21"></div>
+                        <button class="invSlot21Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot22"></div>
+                        <button class="invSlot22Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot23"></div>
+                        <button class="invSlot23Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot24"></div>
+                        <button class="invSlot24Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot25"></div>
+                        <button class="invSlot25Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot26"></div>
+                        <button class="invSlot26Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot27"></div>
+                        <button class="invSlot27Button invButton"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="invSlot28"></div>
+                        <button class="invSlot28Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot29"></div>
+                        <button class="invSlot29Button invButton"></button>
+                    </td>
+                    <td>
+                        <div class="invSlot30"></div>
+                        <button class="invSlot30Button invButton"></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+            
+      </div>
+
+
+      
+            <table class="logTable">
+                <tr>
+                    <td>
+                        <div class="output-here">
+                            
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+	    
+        </div>
+      </div>
+
+      
+
+
+
+      <div class="bottomTables">
+      <!--skill table at bottom of screen-->
+      <table class="skillFullTable">
+
+	  <tr>
+	    <td>
+	      
+	      <img width="30" src="itemSprites/miningIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="miningStatTable skillTable"></div>
+	     
+	    </td>
+	    <td>
+	      <img width="30" src="itemSprites/cookingIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="cookingStatTable skillTable"></div>
+	    </td>
+	  </tr>
+
+	  
+	  <tr>
+	    <td>
+	      <img width="30" src="itemSprites/wcIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="wcStatTable skillTable"></div>
+	    </td>
+	    <td>
+	      <img width="30" src="itemSprites/smeltIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="smeltStatTable skillTable"></div>
+	    </td>
+	    
+	  </tr>
+
+	  <tr>
+	    <td>
+	      <img width="30" src="itemSprites/cardioIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="cardioStatTable skillTable"></div>
+	    </td>
+	    <td>
+	      <img width="30" src="itemSprites/smithIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="smithStatTable skillTable"></div>
+	    </td>
+	  </tr>
+
+	  <tr>
+	    <td>
+	      <img width="30" src="itemSprites/fightingIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="fightingStatTable skillTable"></div>
+	    </td>
+	    <td>
+	      <img width="30" src="itemSprites/heartIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="healthStatTable skillTable"></div>
+	    </td>
+	  </tr>
+
+	  <tr>
+	    <td>
+	      <img width="30" src="itemSprites/fishingIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="fishingStatTable skillTable"></div>
+	    </td>
+	    <td>
+	      <img width="30" src="itemSprites/defenceIcon.png"/>
+	    </td>
+	    <td>
+	      <div class="defenceStatTable skillTable"></div>
+	    </td>
+	  </tr>
+	  
+	  
+	   
+	
+      </table>
+
+         <table class="equipedTable">
+	   <tr>
+	     <td>
+	       <div>
+		 <img width="100" class="equipedItemBox" src="itemSprites/undefined.png" />
+	       </div>
+	     </td>
+	   </tr>
+         </table>
+      </div>
+	</div>
+
+
+
+
+	
+
+
+	
+	
+
+	
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="game.js"></script>
+
+	
+      
+
+      
+        
+    </body>
+
+
+</html>

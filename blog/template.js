@@ -36,13 +36,34 @@ function escapeQuotes(value) {
 console.log(blogs)
 let linksDiv = document.getElementById("links")
 
-let linksText = "<li><a href='blogs/all.html'>ALL POSTS</a></li><br/>"
+let linksText = "<a href='blogs/all.html'>ALL POSTS</a>"
 
+let dateObject
+let month
+let year
+
+let oldMonth = "blibidy blob"
+let oldYear = "bloopy aw"
 
 for (let page = blogs.length - 1; page >= 0; page--) {
-    console.log(length)
+    dateObject = new Date(blogs[page][2])
+    month = dateObject.toLocaleString('en-US', {month: 'long'});
+    year = dateObject.getFullYear()
+    const dayOfWeek = dateObject.toLocaleString('en-US', { weekday: 'long' }); // 'long' returns the full day name
+    const dayOfMonth = dateObject.getDate(); 
+    console.log(month, year, dayOfMonth, dayOfWeek)
 
-    linksText += (`<li><a href='blogs/${page}.html'>${escapeQuotes(blogs[page][0])}</a></li>`)
+
+    console.log(length)
+   
+    if (month != oldMonth) {
+       linksText += (`<h4>${month} ${year}</h4>`) 
+    }
+ 
+    linksText += (`<li class="indent">• <a href='blogs/${page}.html'>${escapeQuotes(blogs[page][0])}</a> -- ${dayOfWeek} ${dayOfMonth}</li>`)
+    
+    oldYear = year
+    oldMonth = month
 }
 
 

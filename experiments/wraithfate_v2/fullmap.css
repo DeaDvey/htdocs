@@ -1,0 +1,10 @@
+body {
+ background-image: url("oldMap.png");
+ background-size: 1920px 1000px;
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+}
+
+section {
+    background-repeat: no-repeat;
+}

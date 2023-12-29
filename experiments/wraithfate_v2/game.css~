@@ -1,0 +1,187 @@
+button:hover {
+    
+    
+    background-image: url("scrollSelect.png");
+    
+}
+
+button {
+    /*width: 200px;
+    height: 40px;*/
+    background-color: #00ffc9;
+    color: #252525;
+    background-image: url("scroll.png");
+    font-family: 'Trebuchet MS', 'Brush Script MT', Arial;
+    width: 160px;
+    height: 40px;
+    border: none;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Brush Script MT', Arial;
+    background-color: #00ffc9;
+    color: black;
+}
+
+
+
+.invButton {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    background-image: url("invImage.png");
+    border: none;
+}
+.invButton:hover {
+    
+    background-image: url("invImageSelect.png");
+    
+}
+
+.greenToPurple {
+    content: url("sussyBakaCoin.png");
+    
+}
+
+.statsButton {
+    background-image: url("itemSprites/statsButton.png");
+    border: none;
+    width: 122px;
+    height: 37px;
+}
+.statsButton:hover {
+    background-image: url("itemSprites/statsButtonSelect.png");
+    border: none;
+    width: 122px;
+    height: 37px;
+}
+
+.hideThis {
+    display: none;
+}
+
+
+.sideBySideTop {
+    display : flex;
+    flex-direction : row;
+}
+
+.JSElements {
+    width: 2000px;
+    
+}
+
+.logTable, tr.logTable, td.logTable {
+    width: 200px;
+    height: 730px;
+    float: right;
+    border: 1px solid black;
+    background-color: #98aa86;
+    color: yellow;
+    position: relative;
+}
+.invTable, tr.invTable, td.invTable {
+    width: 300px;
+    height: 500px;
+    float: right;
+    border: 1px solid black;
+    background-color: #98aa86;
+    color: yellow;
+    position: relative;
+    border: 1px solid black;
+}
+.container {
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+.rightTables {
+    float: right;
+}
+
+table, td, tr {
+    border: 1px solid black;
+}
+td {
+    width: 60px;
+}
+
+.skillFullTable {
+    border: 1px solid black;
+    background-color: #98aa86;
+    color: yellow;
+    position: absolute;
+    top: 510px
+
+}
+
+.equipedTable {
+    border: 1px solid black;
+    background-color: #98aa86;
+    color: yellow;
+    position: absolute;
+    left: 277px;
+    top: 510px;
+    height: 206px
+}
+
+.bottomTables {
+    display : flex;
+    flex-direction : row;
+
+}
+
+.locationTableFull, locationTableFull.tr {
+    border: 1px solid black;
+    background-color: #98aa86;
+    color: yellow;
+    
+    height: 40px;
+}
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    
+}
+.locationImageBox {
+    height: 40px;
+    width: 40px;
+}
+
+.bankContentButton {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    background-image: url("safeClosed.png");
+    border: none;
+
+}
+.bankContentButton:hover {
+    background-image: url("safeOpen.png");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
