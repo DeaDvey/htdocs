@@ -1,0 +1,28 @@
+body {
+    font-family: 'Trebuchet MS', Arial;
+    background-image: url('../images/book-one.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+footer {
+    background-color: red;
+}
+
+article, p, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+a:link {
+  color: rgb(0, 217, 255);
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: lime;
+}
+a:active {
+  color: pink;
+}

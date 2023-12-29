@@ -4,8 +4,20 @@
       <title>DeaDvey</title>
       <link>https://deadvey.com</link>
       <description>Just talking about life and stuff I guess</description>
-      <pubDate>Sun, 24 Dec 2023 00:01:23 +0000</pubDate>
-      <lastBuildDate>Sun, 24 Dec 2023 00:01:23 +0000</lastBuildDate>
+      <pubDate>Thu, 28 Dec 2023 20:41:39 +0000</pubDate>
+      <lastBuildDate>Thu, 28 Dec 2023 20:41:39 +0000</lastBuildDate>
+      <item>
+         <title>Homemade laptop, Nextcloud and possible updates to website</title>
+         <link>https://deadvey.com/blog/blogs/6.html</link>
+         <description>This week I used my raspberry pi to make a Homemade laptop, for the case I used a cardboard box with a hinge duck taped to the back so it doesn&#39;t flop around.  I used a drawing tablet as a mouse as I had no spare mouse, the monitor is my phone conecting to the raspberry pi through VNC which is very janky and I used a massive portable charger to keep the phone and pi charged, the whole thing is really janky and I want to maybe get a 7 inch monitor for it which would work way better but, that&#39;s for the furture me.  I&#39;ve found a cool new feature on Nextcloud called face recognition, I have not gotton it working though so I&#39;ll try figure that out, I suck at troubleshooting, it took like a week to figure out how to use occ, it&#39;s in the nextcloud root directory ._., there&#39;s also a map fearture which uses Open Street Maps to show where images where taken and when and also to plot addresses of your contacts which is very useful.  Finally, I was thinking of added a comment system to my blog posts, but don&#39;t know if I should as it could be vunerable and shit like that and I also can&#39;t really be bothered seeing as no one would use it... On the plus side I got Jotit working on my UBT phone because it needed a bloody / at the end of the address, WHY??? idk it just does for some reason.  Anyway, that&#39;s it for today.&lt;br/&gt; Fly You High - DeaDvey&lt;br/&gt;&lt;img src=&quot;/images/custom_laptop.png&quot; alt=&quot;Blog Image&quot; /&gt;&lt;img src=&quot;/images/nextcloud_maps.png&quot; alt=&quot;Blog Image&quot; /&gt;</description>
+         <pubDate>Thu, 28 Dec 2023 20:41:39 +0000</pubDate>
+      </item>
+      <item>
+         <title>Merry Christmas!</title>
+         <link>https://deadvey.com/blog/blogs/5.html</link>
+         <description>Merry Christmas everyone! Hope everyone is having a great day :), I had an interesting day, I got a Raspberry Pi 4 (4G version) and it&#39;s really cool, I already got &lt;a href=&#39;https://supertuxkart.net/Main_Page&#39;&gt;Super Tux Kart&lt;/a&gt; which is fun, I&#39;ve also connected it to wifi and that&#39;s about it, I got a new keyboard which is way better than my old cheap stiff one, it seems to have helped my wpm, I got a massive power bank which has been charging for 3 hours now and has gone up 18% on the bank, meaning there is A LOT of total power in there :D  Finally, I&#39;ve gotton a new monitor for a grand total of 3 which is nice, I can have firefox on one, music on the other and a game on the third, I love it. I also got a Tux sticker which is super nice and a mug whcih says &#39;number #0 programmer&#39; lol.&lt;br/&gt;Fly You High - DeaDvey&lt;br/&gt;&lt;img src=&#39;https://i.pinimg.com/originals/3c/b3/91/3cb39177fe9f33771c961835ac85c754.png&#39; height=&#39;200&#39; alt=&#39;image of tux&#39; /&gt;&lt;img src=&#39;/images/supertuxkart.png&#39; alt=&#39;Image of supertux kart&#39; height=&#39;200&#39;/&gt;</description>
+         <pubDate>Mon, 25 Dec 2023 18:52:08 +0000</pubDate>
+      </item>
       <item>
          <title>RSS feeds and Star Wars Squadrons</title>
          <link>https://deadvey.com/blog/blogs/4.html</link>

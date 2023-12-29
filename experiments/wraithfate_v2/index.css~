@@ -1,0 +1,96 @@
+body {
+  width: 100%;
+  height: 100%;
+  transform-origin: top left;
+  transform: scale(80%);
+  background-color: #444444;
+}
+
+table {
+    border: 1px solid;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: #98aa86;
+    color: yellow;
+    
+}
+
+td {
+    width: 300px;
+    font-size: 20px;
+    
+}
+
+.invHeader {
+    color: red;
+}
+
+.invDisplay.tr {
+    width: 400px;
+}
+
+.outerContainer {
+    display : flex;
+    flex-direction : row;
+    
+}
+.outerestContainer {
+    display : flex;
+    flex-direction : row;
+    
+}
+
+.money {
+    position: relative;
+    left: 50%;
+    bottom: 30%;
+    font-size: 30px;
+}
+
+.imgInTable {
+    width: 30px;
+}
+
+.container {
+    display : flex;
+    flex-direction : row;
+}
+
+.othersTable {
+    border: 1px solid black;
+    background-color: Grey;
+    color: yellow;
+    font-size: 100px;
+}
+.othersRow {
+    font-size: 100px;
+}
+
+.hp, .hpData {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.skillsRow {
+    width: 200px;
+    text-align: center;
+}
+
+.othersTable.tr, .othersTable.td {
+    background-color: indianred;
+}
+
+tr.othersRow {
+    background-color: indianred;
+}
+
+.chatIframe {
+    width: 300px;
+}
+
+
+
+
+

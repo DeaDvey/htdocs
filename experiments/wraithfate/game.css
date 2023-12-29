@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+
+
+.dave {
+    width: 1500px;
+    border: 15px solid blue;
+   
+}
+header {
+  display: flex;
+  align-items: center;
+  
+  /* Remove the next line if you want the span to appear next to the h1 */
+  justify-content: space-between;
+  
+  
+  padding: 10px 30px;
+}
+.table {
+    background-color: black;
+    margin: 0;
+    padding: 1px;
+    border-spacing: 1px;
+    min-width: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    border: 2px solid green;
+   
+}
+td, th {
+    background-color: orange;
+}
+
+
+
+

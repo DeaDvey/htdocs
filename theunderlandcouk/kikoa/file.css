@@ -1,0 +1,63 @@
+body {
+    background-image: url("./kikau-sea3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: cyan;
+    height: 50px;
+    opacity: 0.8;
+}
+header {
+    background-color: blue;
+}
+
+.flag {
+    position: absolute;
+    top: 8px;
+    left: 469px;
+    height: 50px;
+}
+
+.title {
+    position: absolute;
+    top: -11px;
+    left: 17px;
+}
+
+.links {
+    position: absolute;
+    top: 23px;
+    left: 300px;
+}
+
+.article {
+    position: absolute;
+    top: 100px;
+}
+
+a:link {
+    color: fuchsia;
+    text-decoration: none;
+}
+a:visited {
+    color: orange;
+    text-decoration: none;
+}
+a:hover {
+    color: lime;
+    text-decoration: none;
+}
+a:active {
+    color: pink;
+    text-decoration: none;
+}
+
+.article {
+    height: 1000px;
+    background-color: #10b390;
+    opacity: 0.8;
+}

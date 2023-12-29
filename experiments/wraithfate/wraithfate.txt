@@ -1,0 +1,168 @@
+locations:
+	human towns:
+		ol greth 
+		gemeroth 
+		axeldom town
+		contherium - capital
+
+	orc towns:
+		vermith 
+		tysak 
+		talmon
+		kiki
+		bouba
+		darlamium - capital
+
+	bosses:
+		volcano
+		lighthouse
+		kiki
+		bouba
+		ice burg
+		boulevard
+
+	other:
+		farms:
+			wheat farm
+			blueberry farm
+
+		forests:
+			sand forest
+				oak
+				willow
+				ivy
+				
+			axeldom forest
+				oak
+				beach
+				redwood
+				yew
+
+		mines:
+			sand mine
+			talmon mine
+			gemeroth mine
+		
+		beach:
+			sand beach
+				palm
+				cod
+				salmon
+				
+			west beach
+				palm
+				cod
+
+			east beach
+				palm
+				salmon
+
+		unclassified:
+			cemetary
+				willow
+			ravine
+			ice burg
+			volcano
+			lighthouse
+	
+	all:
+		ol greth 
+		gemeroth 
+		axeldom town
+		contherium - capital
+		vermith 
+		tysak 
+		talmon
+		kiki
+		bouba
+		darlamium - capital
+		volcano
+		lighthouse
+		kiki
+		bouba
+		ice burg
+		boulevard
+		cemetary
+		ravine
+		sand beach
+		west beach
+		east beach
+		sand mine
+		talmon mine
+		gemeroth mine
+		sand forest
+		axeldom forest
+		wheat farm
+		blueberry farm
+
+			
+
+mining:
+	sand mine
+	talmon mine
+	gemeroth mine
+
+woodcutting:
+	sand forest
+	axeldom forest
+
+cardio:
+	lighthouse
+	ravine
+	volcano (level 40)	
+
+fighting:
+	all boss locations
+	all cities
+		muggers
+		brawlers
+	ravine
+		spiders
+	cemetary	
+		ghosts
+		grave robbers			
+	volcano
+		minor fire spirits
+		major fire spirits
+
+fishing:
+	beach
+	darlamium
+	sand river
+	tysak river
+
+cooking:
+	all cities (bar kiki and bouba)
+
+smelting:
+	ol greth
+	gemeroth
+	talmon
+
+smithing:
+	ol greth
+	gemeroth
+	talmon
+
+farming (to be added):
+	wheat farm
+	bluebery farm
+
+commands:
+	training:
+		train <ability>
+	travel:
+		travel <location>
+		
+
+		
+	
+		
+
+		
+		
+		
+	
+
+
+	

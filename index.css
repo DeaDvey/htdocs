@@ -11,12 +11,26 @@
 }
 
 .header-image {
-	content: url("header-image.png");
+	content: url("/images/header-image.png");
 	width: 100%;
 }
 
 img:not(.feedicon) {
     max-width: 100%
+}
+
+#links {
+	text-align: left;
+	width: 750px;
+}
+
+.indent {
+	padding-left: 20px;
+	list-style-type: none;
+}
+
+.doubleIndent {
+	padding-left: 40px;
 }
 
 body {
