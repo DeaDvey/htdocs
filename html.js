@@ -31,7 +31,8 @@ let pageBottom = `</div>
                 <li>• <a href="https://gitlab.com/deadvey" >Gitlab</a></li>
                 <li>• <a href="https://mastodon.social/@DeaDvey" >Mastadon(.social)</a><a href="https://mastodon.social/@DeaDvey.rss"><img src="/images/feedIcon.png" /></a></li>
                 <li>• <a href="https://letterboxd.com/DeaDvey/" >Letterboxd (film reviews)</a><a href="https://letterboxd.com/deadvey/rss/"><img src="/images/feedIcon.png" /></a></li>
-            </ul>
+            </ul><br/>
+            <small width="300px">© DeaDvey 2023 - 2024<br/>This work is licensed under the terms of the <a href="/LICENSE">GNU General Public License, version 3.0</a>. You are free to copy, distribute, and modify this work under the terms of the <a href="/LICENSE">GPL 3.0 License</a>. Please see the full license text for details.</small>
         </div>
     </body>
 </html>`
