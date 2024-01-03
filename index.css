@@ -10,6 +10,10 @@
 	}
 }
 
+ul {
+    list-style-type: none;
+}
+
 .header-image {
 	content: url("/images/header-image.png");
 	width: 100%;
