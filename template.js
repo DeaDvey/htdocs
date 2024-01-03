@@ -1,8 +1,6 @@
 let div = document.getElementById('main');
 let divText = div.innerHTML;
 
-divText += `Here you can read my latest blog: <a href='/blog/blogs/${blogs.length - 1}.html'>Latest blog</a>`
-
 console.log(divText);
 
 let newPageHTML = `${pageTop}${divText}${pageBottom}`
@@ -13,3 +11,17 @@ function goToLink(link) {
             window.location.href = link
 }
 
+// Write latest blog to home page
+
+let latestBlogDiv = document.getElementById("latestBlog");
+let blogText = `<h5 class="blog-date">${blogs[blogs.length - 1][2]}</h3>
+<h3 class="blog-title">${blogs[blogs.length - 1][0]}</h1>
+${blogs[blogs.length - 1][1]}
+${blogs[blogs.length - 1][3] ?
+                  `<div class="blog-images">
+                    ${blogs[blogs.length - 1][3].map(image => `<img class="blog-image" height="200" src="/images/${image}" alt="${image}" />`).join('')}
+                  </div>`
+                  : ''}`
+
+let blogHTML = `${blogText}`
+latestBlogDiv.innerHTML = blogHTML
