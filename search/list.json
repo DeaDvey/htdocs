@@ -40,5 +40,11 @@
         "name": "Homemade laptop, Nextcloud and possible updates to website",
         "tags": "Nextcloud,Website,VNC,Laptop,Maps",
         "link": "/blog/blogs/6.html"
+     },
+     {
+        "id": 7,
+        "name": "Happy New Year!!!!",
+        "tags": "new year,terminology,victor mono,resolution,pi,montior,7 inch,peertube,node js,github,previous,next,revision",
+        "link": "/blog/blogs/7.html"
      }
 ]
