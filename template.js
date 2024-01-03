@@ -13,4 +13,3 @@ function goToLink(link) {
             window.location.href = link
 }
 
-console.log(lastupdated)
