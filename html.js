@@ -10,7 +10,7 @@ let pageTop = `<!DOCTYPE html>
         <div class="header main">
               <img class="header-image" /><br/>
               <a href="/" onclick="history.back()"><img src="/images/return.png" width="20" />Return</a> | 
-<a href="/">Home page</a> | <a href="/blog/index.html">Blogs</a> <a href="feed.xml"><img width="16" src="/images/feedIcon.png" class="feedicon" alt="Feed image"/></a> | <a href="/video/index.html">Videos</a> | <a href="https://github.com/DeaDvey/htdocs"><img height="15" src="/images/github.png" alt="Link to github page"/></a> | <input type="text" id="clickableInput" onclick="goToLink('/search')" placeholder="Click to search">
+<a href="/">Home page</a> | <a href="/blog/index.html">Blogs</a> <a href="/feed.xml"><img width="16" src="/images/feedIcon.png" class="feedicon" alt="Feed image"/></a> | <a href="/video/index.html">Videos</a> | <a href="https://github.com/DeaDvey/htdocs"><img height="15" src="/images/github.png" alt="Link to github page"/></a> | <input type="text" id="clickableInput" onclick="goToLink('/search')" placeholder="Click to search">
 
         </div>
         <hr/>
@@ -22,9 +22,9 @@ let pageBottom = `</div>
         <div class="footer main">
             <ul>
                 Internal pages:
-                <li>• <a href="/theunderlandcouk" >theunderland webpages</a></li>
-                <li>• <a href="/experiments" >Experiments</a></li>
+                <li>• <a href="/experiments" >Experiments <img height="30" src="/images/experience-green-liquid.gif" /></a></li>
                 <li>• <a href="/isthistheyearofthelinuxdesktop" >Is this the year of the Linux Desktop?</a></li>
+                <li>• <a href="/theunderlandcouk" >theunderland webpages</a></li>
                 <br/>
                 External sites:
                 <li>• <a href="https://github.com/DeaDvey" >Github</a></li>
