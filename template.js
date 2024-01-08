@@ -11,11 +11,16 @@ function goToLink(link) {
             window.location.href = link
 }
 
+// Write latest commits to page
+
+let commitsDiv = document.getElementById("commits")
+commitsDiv.innerHTML = commits
+
+
 // Write latest blog to home page
 
 let latestBlogDiv = document.getElementById("latestBlog");
-let blogText = `<h5 class="blog-date">${blogs[blogs.length - 1][2]}</h3>
-<h3 class="blog-title">${blogs[blogs.length - 1][0]}</h1>
+let blogText = `<h5 class="blog-title">${blogs[blogs.length - 1][0]}</h5>
 ${blogs[blogs.length - 1][1]}
 ${blogs[blogs.length - 1][3] ?
                   `<div class="blog-images">
