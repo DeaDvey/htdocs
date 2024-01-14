@@ -113,5 +113,10 @@ a:active {
     display: none;
   }
 
+  .input-comment {
+    height: 100px;
+  }
   
-
+ .form-control {
+    width: 400px;
+ }
