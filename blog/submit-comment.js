@@ -14,4 +14,7 @@ commentForm.addEventListener("submit", (e) => {
 
   comments[post].push(`${name.value}:  ${comment.value}`)
   console.log(comments)
+
+  $.post('/comment', { comment: comment.value })
+  $.post('/name', { name: name.value })
 });
