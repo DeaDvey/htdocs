@@ -1,0 +1,10 @@
+projects = [
+    ["Binary Clock","A clock that counts using binary digits, see <a href='https://en.wikipedia.org/wiki/Binary_clock'>The Wiki Article</a> for more info", "Python","-python<br/>-A braille supporting font","May 2024","binclock.zip","binclock.tar.gz"],
+    ["test 2","second test post","Shakespeare","htop","dunno.zip","dunno.tar.gz"],
+    ["test","Test post","Brainfuck","N/A","sussy.zip","sussy.tar.gz"]
+]
+
+
+if (typeof module !== 'undefined' && module.exports) {
+	module.exports = projects;
+}

@@ -1,0 +1,94 @@
+[
+    {
+      "id": 1,
+      "name": "Gregor",
+      "type": "Overlander",
+      "link": "../chars/Overlanders/gregor.html"
+    },
+    {
+        "id": 1,
+        "name": "Luxa",
+        "type": "Underlander",
+        "link": "../chars/Underlanders/luxa.html"
+    },
+    {
+        "id": 1,
+        "name": "Gregor's dad",
+        "type": "Overlander",
+        "link": "../chars/Overlanders/lee.html"
+    },
+    {
+      "id": 1,
+      "name": "Boots",
+      "type": "Overlander",
+      "link": "../chars/Overlanders/boots.html"
+    },
+    {
+      "id": 1,
+      "name": "Vikus",
+      "type": "Underlander",
+      "link": "../chars/Underlanders/vikus.html"
+    },
+    {
+      "id": 1,
+      "name": "Ripred",
+      "type": "Gnawer",
+      "link": "../chars/Gnawers/ripred.html"
+    },
+    {
+    "id": 1,
+    "if (typeof module !== 'undefined' && module.exports) {
+	module.exports = blogs;
+}
+
+name": "Crawlers",
+    "type": "Species",
+    "link": "../species/crawlers.html"
+    },
+    {
+    "id": 1,
+    "name": "Cutters",
+    "type": "Species",
+    "link": "../species/cutters.html"
+    },
+    {
+    "id": 1,
+    "name": "Diggers",
+    "type": "Species",
+    "link": "../species/diggers.html"
+    },
+    {
+    "id": 1,
+    "name": "Fliers",
+    "type": "Species",
+    "link": "../species/fliers.html"
+    },
+    {
+    "id": 1,
+    "name": "Gnawers",
+    "type": "Species",
+    "link": "../species/gnawers.html"
+    },
+    {
+    "id": 1,
+    "name": "Gregor the Overlander Book",
+    "type": "Book",
+    "link": "../books/1.html"
+    },
+    {
+    "id": 1,
+    "name": "Gregor and the Prophecy of Bane Book",
+    "type": "Book",
+    "link": "../books/2.html"
+    },
+    {
+    "id": 1,
+    "name": "Gregor and the Curse of the Warmbloods Book",
+    "type": "Book",
+    "link": "../books/3.html"
+    }
+  ]
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+</head>
+<a href="/" onclick="history.back()"><img src="/images/return.png" width="20" />Return</a> |
+<a href="/">Home page</a> | <a href="/blog/index.html">Blogs</a> <a href="/feed.xml"><img width="16" src="/images/feedIcon.png" class="feedicon" alt="Feed image"/></a> | <a href="/video/index.html">Videos</a> | <a href="https://github.com/DeaDvey/htdocs"><img height="15" src="/images/github.png" alt="Link to github page"/></a> | <input type="text" id="clickableInput" onclick="goToLink('/search')" placeholder="Click to search">
+<div id="main">
+    Welcome to the blog page! You 𝔥𝔬𝔯𝔯𝔦𝔟𝔩𝔢 people!
+    <div id="links"><a href='blogs/all.html'>ALL POSTS</a><h4>May
+    2024</h4><li class="indent">• <a href='blogs/17.html'>Macbeth, Macbeth,
+    where art thou Macbeth?</a> -- Sunday
+    12</li><li class="indent">• <a href='blogs/16.html'>Kingdom of the Planet
+    of the Apes - 3/5</a> -- Sunday
+    12</li><li class="indent">• <a href='blogs/15.html'>Exam Stress</a> --
+    Wednesday 8</li><li class="indent">• <a href='blogs/14.html'>Seven
+    Psychopaths</a> -- Saturday 4</li><h4>March
+    2024</h4><li class="indent">• <a href='blogs/13.html'>Mocks over, only
+    GCSE&#39;s to go...</a> -- Monday
+    11</li><li class="indent">• <a href='blogs/12.html'>Mocks next week and
+    sorry for no updates!</a> -- Sunday 3</li><h4>January
+    2024</h4><li class="indent">• <a href='blogs/11.html'>Naught to say</a> --
+    Tuesday 30</li><li class="indent">• <a href='blogs/10.html'>H.I.V.E book
+    review (Heavy spoilers)</a> -- Saturday
+    20</li><li class="indent">• <a href='blogs/9.html'>Sorry for
+    inactivity</a> -- Tuesday
+    16</li><li class="indent">• <a href='blogs/8.html'>Henry Stickmin
+    completion</a> -- Monday
+    8</li><li class="indent">• <a href='blogs/7.html'>Happy New Year!!!!</a>
+    -- Wednesday 3</li><h4>December
+    2023</h4><li class="indent">• <a href='blogs/6.html'>Homemade laptop,
+    Nextcloud and possible updates to website</a> -- Thursday
+    28</li><li class="indent">• <a href='blogs/5.html'>Merry Christmas!</a> --
+    Monday 25</li><li class="indent">• <a href='blogs/4.html'>RSS feeds and
+    Star Wars Squadrons</a> -- Sunday
+    24</li><li class="indent">• <a href='blogs/3.html'>Late December Update
+    Before Christmas</a> -- Thursday
+    21</li><li class="indent">• <a href='blogs/2.html'>I didn&#39;t like
+    Wordpress</a> -- Monday
+    11</li><li class="indent">• <a href='blogs/1.html'>Test post2</a> --
+    Sunday 10</li><li class="indent">• <a href='blogs/0.html'>Test post</a> -- --
+	--Sunday 10</li></div>
+    <h3>Arhive</h3>
+    <li class="indent">• <a href='archive.html'>Old posts</a></li>
+</div>
+
+<script src="submit-comment.js">
+</script>
+<script src="/lastupdated.js">
+</script>
+<script src="/html.js">
+</script>
+<script src="blogs.js">
+</script>
+<script src="template.js">
+</script>
+

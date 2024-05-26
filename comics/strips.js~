@@ -1,0 +1,5 @@
+let strips = [["test2.png","2024-05-12T20:25:28.280Z"],["RevisionBreak.png","2024-05-12T20:25:28.276Z"],["test1.png","2024-05-12T20:25:28.276Z"]]
+strips = strips.reverse();
+if (typeof module !== 'undefined' && module.exports) {
+       module.exports = strips;
+}

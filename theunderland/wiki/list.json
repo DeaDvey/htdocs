@@ -1,0 +1,556 @@
+[{
+   "id": 1,
+   "name": "Gregor",
+   "type": "Character",
+   "link": "pages/Gregor.html"
+},{
+   "id": 1,
+   "name": "Boots",
+   "type": "Character",
+   "link": "pages/Boots.html"
+},{
+   "id": 1,
+   "name": "Sandwich",
+   "type": "Character",
+   "link": "pages/Sandwich.html"
+},{
+   "id": 1,
+   "name": "Grace",
+   "type": "Character",
+   "link": "pages/Grace.html"
+},{
+   "id": 1,
+   "name": "Lee",
+   "type": "Character",
+   "link": "pages/Lee.html"
+},{
+   "id": 1,
+   "name": "Gregor's Grandmother",
+   "type": "Character",
+   "link": "pages/Gregor's Grandmother.html"
+},{
+   "id": 1,
+   "name": "Lizzie",
+   "type": "Character",
+   "link": "pages/Lizzie.html"
+},{
+   "id": 1,
+   "name": "Jedidiah",
+   "type": "Character",
+   "link": "pages/Jedidiah.html"
+},{
+   "id": 1,
+   "name": "Mrs. Cormaci",
+   "type": "Character",
+   "link": "pages/Mrs. Cormaci.html"
+},{
+   "id": 1,
+   "name": "Larry",
+   "type": "Character",
+   "link": "pages/Larry.html"
+},{
+   "id": 1,
+   "name": "Angelina",
+   "type": "Character",
+   "link": "pages/Angelina.html"
+},{
+   "id": 1,
+   "name": "Hazard's Mother",
+   "type": "Character",
+   "link": "pages/Hazard's Mother.html"
+},{
+   "id": 1,
+   "name": "Fred Clark",
+   "type": "Character",
+   "link": "pages/Fred Clark.html"
+},{
+   "id": 1,
+   "name": "Coco",
+   "type": "Character",
+   "link": "pages/Coco.html"
+},{
+   "id": 1,
+   "name": "Mickey",
+   "type": "Character",
+   "link": "pages/Mickey.html"
+},{
+   "id": 1,
+   "name": "Mr. Otts",
+   "type": "Character",
+   "link": "pages/Mr. Otts.html"
+},{
+   "id": 1,
+   "name": "Rodney",
+   "type": "Character",
+   "link": "pages/Rodney.html"
+},{
+   "id": 1,
+   "name": "Lucy",
+   "type": "Character",
+   "link": "pages/Lucy.html"
+},{
+   "id": 1,
+   "name": "Luxa",
+   "type": "Character",
+   "link": "pages/Luxa.html"
+},{
+   "id": 1,
+   "name": "Vikus",
+   "type": "Character",
+   "link": "pages/Vikus.html"
+},{
+   "id": 1,
+   "name": "Henry",
+   "type": "Character",
+   "link": "pages/Henry.html"
+},{
+   "id": 1,
+   "name": "Howard",
+   "type": "Character",
+   "link": "pages/Howard.html"
+},{
+   "id": 1,
+   "name": "Susannah",
+   "type": "Character",
+   "link": "pages/Susannah.html"
+},{
+   "id": 1,
+   "name": "York",
+   "type": "Character",
+   "link": "pages/York.html"
+},{
+   "id": 1,
+   "name": "Stellovet",
+   "type": "Character",
+   "link": "pages/Stellovet.html"
+},{
+   "id": 1,
+   "name": "Hero",
+   "type": "Character",
+   "link": "pages/Hero.html"
+},{
+   "id": 1,
+   "name": "Kent",
+   "type": "Character",
+   "link": "pages/Kent.html"
+},{
+   "id": 1,
+   "name": "Chimney",
+   "type": "Character",
+   "link": "pages/Chimney.html"
+},{
+   "id": 1,
+   "name": "Solovet",
+   "type": "Character",
+   "link": "pages/Solovet.html"
+},{
+   "id": 1,
+   "name": "Hamnet",
+   "type": "Character",
+   "link": "pages/Hamnet.html"
+},{
+   "id": 1,
+   "name": "Judith",
+   "type": "Character",
+   "link": "pages/Judith.html"
+},{
+   "id": 1,
+   "name": "Nerissa",
+   "type": "Character",
+   "link": "pages/Nerissa.html"
+},{
+   "id": 1,
+   "name": "Mareth",
+   "type": "Character",
+   "link": "pages/Mareth.html"
+},{
+   "id": 1,
+   "name": "Neveeve",
+   "type": "Character",
+   "link": "pages/Neveeve.html"
+},{
+   "id": 1,
+   "name": "Dulcet",
+   "type": "Character",
+   "link": "pages/Dulcet.html"
+},{
+   "id": 1,
+   "name": "Horatio",
+   "type": "Character",
+   "link": "pages/Horatio.html"
+},{
+   "id": 1,
+   "name": "Marcus",
+   "type": "Character",
+   "link": "pages/Marcus.html"
+},{
+   "id": 1,
+   "name": "Miravet",
+   "type": "Character",
+   "link": "pages/Miravet.html"
+},{
+   "id": 1,
+   "name": "Perdita",
+   "type": "Character",
+   "link": "pages/Perdita.html"
+},{
+   "id": 1,
+   "name": "Miranda",
+   "type": "Character",
+   "link": "pages/Miranda.html"
+},{
+   "id": 1,
+   "name": "Lucent",
+   "type": "Character",
+   "link": "pages/Lucent.html"
+},{
+   "id": 1,
+   "name": "Claudius",
+   "type": "Character",
+   "link": "pages/Claudius.html"
+},{
+   "id": 1,
+   "name": "Anchel",
+   "type": "Character",
+   "link": "pages/Anchel.html"
+},{
+   "id": 1,
+   "name": "Dapne",
+   "type": "Character",
+   "link": "pages/Dapne.html"
+},{
+   "id": 1,
+   "name": "Keeda",
+   "type": "Character",
+   "link": "pages/Keeda.html"
+},{
+   "id": 1,
+   "name": "Hazard",
+   "type": "Character",
+   "link": "pages/Hazard.html"
+},{
+   "id": 1,
+   "name": "Ares",
+   "type": "Character",
+   "link": "pages/Ares.html"
+},{
+   "id": 1,
+   "name": "Aurora",
+   "type": "Character",
+   "link": "pages/Aurora.html"
+},{
+   "id": 1,
+   "name": "Ajax",
+   "type": "Character",
+   "link": "pages/Ajax.html"
+},{
+   "id": 1,
+   "name": "Andromeda",
+   "type": "Character",
+   "link": "pages/Andromeda.html"
+},{
+   "id": 1,
+   "name": "Euripedes",
+   "type": "Character",
+   "link": "pages/Euripedes.html"
+},{
+   "id": 1,
+   "name": "Nike",
+   "type": "Character",
+   "link": "pages/Nike.html"
+},{
+   "id": 1,
+   "name": "Queen Athena",
+   "type": "Character",
+   "link": "pages/Queen Athena.html"
+},{
+   "id": 1,
+   "name": "Pandora",
+   "type": "Character",
+   "link": "pages/Pandora.html"
+},{
+   "id": 1,
+   "name": "Thalia",
+   "type": "Character",
+   "link": "pages/Thalia.html"
+},{
+   "id": 1,
+   "name": "Daedalus",
+   "type": "Character",
+   "link": "pages/Daedalus.html"
+},{
+   "id": 1,
+   "name": "Hermes",
+   "type": "Character",
+   "link": "pages/Hermes.html"
+},{
+   "id": 1,
+   "name": "Icarus",
+   "type": "Character",
+   "link": "pages/Icarus.html"
+},{
+   "id": 1,
+   "name": "Cassiopeia",
+   "type": "Character",
+   "link": "pages/Cassiopeia.html"
+},{
+   "id": 1,
+   "name": "Pollux",
+   "type": "Character",
+   "link": "pages/Pollux.html"
+},{
+   "id": 1,
+   "name": "Ripred",
+   "type": "Character",
+   "link": "pages/Ripred.html"
+},{
+   "id": 1,
+   "name": "Silksharp",
+   "type": "Character",
+   "link": "pages/Silksharp.html"
+},{
+   "id": 1,
+   "name": "Lapblood",
+   "type": "Character",
+   "link": "pages/Lapblood.html"
+},{
+   "id": 1,
+   "name": "Mange",
+   "type": "Character",
+   "link": "pages/Mange.html"
+},{
+   "id": 1,
+   "name": "Sixclaw",
+   "type": "Character",
+   "link": "pages/Sixclaw.html"
+},{
+   "id": 1,
+   "name": "Flyfur",
+   "type": "Character",
+   "link": "pages/Flyfur.html"
+},{
+   "id": 1,
+   "name": "Twitchtip",
+   "type": "Character",
+   "link": "pages/Twitchtip.html"
+},{
+   "id": 1,
+   "name": "Cleaver",
+   "type": "Character",
+   "link": "pages/Cleaver.html"
+},{
+   "id": 1,
+   "name": "Goldshard",
+   "type": "Character",
+   "link": "pages/Goldshard.html"
+},{
+   "id": 1,
+   "name": "Makemince",
+   "type": "Character",
+   "link": "pages/Makemince.html"
+},{
+   "id": 1,
+   "name": "Ratriff",
+   "type": "Character",
+   "link": "pages/Ratriff.html"
+},{
+   "id": 1,
+   "name": "Razor",
+   "type": "Character",
+   "link": "pages/Razor.html"
+},{
+   "id": 1,
+   "name": "The Bane",
+   "type": "Character",
+   "link": "pages/The Bane.html"
+},{
+   "id": 1,
+   "name": "King Gorger",
+   "type": "Character",
+   "link": "pages/King Gorger.html"
+},{
+   "id": 1,
+   "name": "Twirltongue",
+   "type": "Character",
+   "link": "pages/Twirltongue.html"
+},{
+   "id": 1,
+   "name": "Gushgore",
+   "type": "Character",
+   "link": "pages/Gushgore.html"
+},{
+   "id": 1,
+   "name": "Reekwell",
+   "type": "Character",
+   "link": "pages/Reekwell.html"
+},{
+   "id": 1,
+   "name": "Fangor",
+   "type": "Character",
+   "link": "pages/Fangor.html"
+},{
+   "id": 1,
+   "name": "Shed",
+   "type": "Character",
+   "link": "pages/Shed.html"
+},{
+   "id": 1,
+   "name": "Snare",
+   "type": "Character",
+   "link": "pages/Snare.html"
+},{
+   "id": 1,
+   "name": "Blootlet",
+   "type": "Character",
+   "link": "pages/Blootlet.html"
+},{
+   "id": 1,
+   "name": "Clawsin",
+   "type": "Character",
+   "link": "pages/Clawsin.html"
+},{
+   "id": 1,
+   "name": "Temp",
+   "type": "Character",
+   "link": "pages/Temp.html"
+},{
+   "id": 1,
+   "name": "Tick",
+   "type": "Character",
+   "link": "pages/Tick.html"
+},{
+   "id": 1,
+   "name": "Min",
+   "type": "Character",
+   "link": "pages/Min.html"
+},{
+   "id": 1,
+   "name": "Pend",
+   "type": "Character",
+   "link": "pages/Pend.html"
+},{
+   "id": 1,
+   "name": "Cartesian",
+   "type": "Character",
+   "link": "pages/Cartesian.html"
+},{
+   "id": 1,
+   "name": "Cevian",
+   "type": "Character",
+   "link": "pages/Cevian.html"
+},{
+   "id": 1,
+   "name": "Cube",
+   "type": "Character",
+   "link": "pages/Cube.html"
+},{
+   "id": 1,
+   "name": "Heronian",
+   "type": "Character",
+   "link": "pages/Heronian.html"
+},{
+   "id": 1,
+   "name": "Scalene",
+   "type": "Character",
+   "link": "pages/Scalene.html"
+},{
+   "id": 1,
+   "name": "Newton",
+   "type": "Character",
+   "link": "pages/Newton.html"
+},{
+   "id": 1,
+   "name": "Root",
+   "type": "Character",
+   "link": "pages/Root.html"
+},{
+   "id": 1,
+   "name": "Euclidian",
+   "type": "Character",
+   "link": "pages/Euclidian.html"
+},{
+   "id": 1,
+   "name": "Gox",
+   "type": "Character",
+   "link": "pages/Gox.html"
+},{
+   "id": 1,
+   "name": "Treflex",
+   "type": "Character",
+   "link": "pages/Treflex.html"
+},{
+   "id": 1,
+   "name": "Queen Wevox",
+   "type": "Character",
+   "link": "pages/Queen Wevox.html"
+},{
+   "id": 1,
+   "name": "Reflex",
+   "type": "Character",
+   "link": "pages/Reflex.html"
+},{
+   "id": 1,
+   "name": "Purvox",
+   "type": "Character",
+   "link": "pages/Purvox.html"
+},{
+   "id": 1,
+   "name": "Photos Glow-Glow",
+   "type": "Character",
+   "link": "pages/Photos Glow-Glow.html"
+},{
+   "id": 1,
+   "name": "Zap",
+   "type": "Character",
+   "link": "pages/Zap.html"
+},{
+   "id": 1,
+   "name": "Frill",
+   "type": "Character",
+   "link": "pages/Frill.html"
+},{
+   "id": 1,
+   "name": "The Underland",
+   "type": "Location",
+   "link": "pages/The Underland.html"
+},{
+   "id": 1,
+   "name": "The Overland",
+   "type": "Location",
+   "link": "pages/The Overland.html"
+},{
+   "id": 1,
+   "name": "New York City",
+   "type": "Location",
+   "link": "pages/New York City.html"
+},{
+   "id": 1,
+   "name": "Overlander",
+   "type": "Species",
+   "link": "pages/Overlander.html"
+},{
+   "id": 1,
+   "name": "Underlander",
+   "type": "Species",
+   "link": "pages/Underlander.html"
+},{
+   "id": 1,
+   "name": "Gnawer",
+   "type": "Species",
+   "link": "pages/Gnawer.html"
+},{
+   "id": 1,
+   "name": "Crawler",
+   "type": "Species",
+   "link": "pages/Crawler.html"
+},{
+   "id": 1,
+   "name": "The Code of Claw",
+   "type": "Book",
+   "link": "pages/The Code of Claw.html"
+},{
+   "id": 1,
+   "name": "Gregor the Overlander",
+   "type": "Book",
+   "link": "pages/Gregor the Overlander.html"
+}]

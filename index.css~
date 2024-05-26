@@ -1,0 +1,161 @@
+.main {
+	display: block;
+	text-align: left;
+	margin-right: auto;
+}
+@media screen and (min-width: 800px) {
+	.main {
+		width: 750px;
+	}
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-image {
+	content: url("/images/header-image.png");
+	width: 100%;
+}
+
+img:not(.feedicon) {
+    max-width: 100%
+}
+
+#links {
+	text-align: left;
+	width: 750px;
+}
+
+.indent {
+	padding-left: 20px;
+	list-style-type: none;
+}
+
+.doubleIndent {
+	padding-left: 40px;
+}
+
+body {
+	background-color: #282828;
+	color: #ebdbb2;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+* {
+    scrollbar-color: #fb4934 #83a598;
+}
+
+a:link {
+    color: #d3869b;
+    text-decoration: none;
+}
+a:visited {
+    color: #fe8019;
+    text-decoration: none;
+}
+a:hover {
+    color: #b16286;
+    text-decoration: none;
+}
+a:active {
+    color: #458588;
+    text-decoration: none;
+}
+
+/*.blog-content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+%    width: 500px;
+}*/
+
+.projects-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px #1d2021;
+}
+
+.projects-table thead tr {
+    background-color: #b8bb26;
+    color: #ebdbb2;
+    text-align: left;
+}
+
+.projects-table th,
+.projects-table td {
+    padding: 12px 15px;
+}
+
+.projects-table tbody tr {
+    border-bottom: 1px solid #ebdbb2;
+}
+
+.projects-table tbody tr:nth-of-type(even) {
+    background-color: #1d2021;
+}
+
+.projects-table tbody tr:last-of-type {
+    border-bottom: 2px solid #98971a;
+}
+.projects-table tbody tr.active-row {
+    font-weight: bold;
+    color: #282828;
+}
+
+
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  .user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+  }
+
+  .card {
+    padding: .5rem;
+    overflow: hidden;
+  }
+
+  .card > .header {
+    margin-bottom: .25rem;
+  }
+
+  .card > .search-body {
+    font-size: .8rem;
+    width: 10;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .input-comment {
+    height: 100px;
+  }
+  
+ .form-control {
+    width: 400px;
+ }
+
+
+ 

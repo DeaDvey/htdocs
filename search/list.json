@@ -52,5 +52,59 @@
         "name": "Henry Stickmin completion",
         "tags": "henry stickmin,HIVE,comments,hyprland,sway,braces,bored",
         "link": "/blog/blogs/8.html"
+     },
+     {
+        "id": 9,
+        "name": "Sorry for inactivity",
+        "tags": "HIVE,raspberry,pi,revision,factorio",
+        "link": "/blog/blogs/9.html"
+     },
+     {
+        "id": 10,
+        "name": "H.I.V.E book review (Heavy spoilers)",
+        "tags": "H.I.V.E,HIVE,Book Review",
+        "link": "/blog/blogs/10.html"
+     },
+     {
+        "id": 11,
+        "name": "Naught to say",
+        "tags": "PS2,surround sound,bored,but nothing happened,the merciless iced east winds that knive us,condensation polymerisation,Beneath his hands which did not tremble then, though seem to now,Lnew = (Loriginal*D^2original)/D^2new",
+        "link": "/blog/blogs/11.html"
+     },
+     {
+        "id": 12,
+        "name": "Mocks next week and sorry for no updates!",
+        "tags": "mocks,football,bored,revision,agnes grey",
+        "link": "/blog/blogs/12.html"
+     },
+     {
+        "id": 13,
+        "name": "Mocks over, only GCSE's to go...",
+        "tags": "dark crystal,letterboxd,v for vendetta,stablelm,jellyfin,tidy",
+        "link": "/blog/blogs/13.html"
+     },
+     {
+        "id": 14,
+        "name": "Seven Psychopaths",
+        "tags": "seven psychopaths,review,film",
+        "link": "/blog/blogs/14.html"
+     },
+     {
+        "id": 15,
+        "name": "Exam Stress",
+        "tags": "gcse,exam,fedora,minedwarves",
+        "link": "/blog/blogs/15.html"
+     },
+     {
+        "id": 16,
+        "name": "Kingdom of the Planet of the Apes - 3/5",
+        "tags": "review,3 stars,cinema watch,family watch",
+        "link": "/blog/blogs/16.html"
+     },
+     {
+        "id": 17,
+        "name": "Macbeth, Macbeth, where art thou Macbeth?",
+        "tags": "macbeth,english,exam,gcse",
+        "link": "/blog/blogs/17.html"
      }
 ]

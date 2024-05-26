@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Underland Chronicles</h1>
+    <h2>Wiki and Annotations</h2><br/>
+    <img width="200px" src="/theunderland/images/rat.png">
+    <hr/>
+    Table of Contents
+    <ol>
+      <li><h3><a href="wiki">Wiki Pages:</a></h3></li>
+      <ol>
+	<li><a href="wiki/pages/Ggregortheoverlander.htmlregor.html">Gregor</a></li>
+      </ol>
+      <li><h3>Annotations</h3></li>
+      <ol>
+	<li><a href="annotations/gregortheoverlander.html">Gregor the Overlander</a></li>
+      </ol>
+    </ol>
+  </body>
+  <footer>
+    <hr/>
+    <h2>Links</h2>  
+    <a href="/theunderland">Search Page</a><br/>  
+    <a href="https://brace.dev/tuc-timeline">TUC Timeline (External)</a><br/>
+    <a href="https://discord.gg/UP2MtTqSED">TUC Discord (External)</a><br/>  
+    <a href="https://www.youtube.com/watch?v=EbyWMRyBrkY">The Underland Project (External)</a><br/>  
+    <h2>Thanks to:</h2>
+    <a href="https://underlandchronicles.fandom.com/wiki/The_Underland_Cyclopedia">The Underland Chronicles Fandom<a/> For a good resource while researching, licensed under CC-BY-SA<br/>  
+      <a href="https://en.wikipedia.org/wiki/List_of_The_Underland_Chronicles_characters">Wikipedia</a>
+      For a goodresource while researching, licensed under Creative Commons Attribution-ShareAlike License 4.0<br/>
+  </footer>
+</html>
