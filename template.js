@@ -20,7 +20,7 @@ commitsDiv.innerHTML = commits
 // Write latest blog to home page
 
 let latestBlogDiv = document.getElementById("latestBlog");
-let blogText = `<h5 class="blog-title">${blogs[blogs.length - 1][0]}</h5>
+let blogText = `<h5 class="blog-title"><a href="/blog/blogs/${blogs.length-1}.html">${blogs[blogs.length - 1][0]}</a></h5>
 ${blogs[blogs.length - 1][1]}
 ${blogs[blogs.length - 1][3] ?
                   `<div class="blog-images">
