@@ -8,9 +8,9 @@
     </head>
     <body>
         <div class="header main">
-              <img class="header-image" /><br/>
+              <img src="/images/header-image.png" /><br/>
               <a href="/" onclick="history.back()"><img src="/images/return.png" width="20" />Return</a> | 
-<a href="/">Home page</a> | <a href="/blog/index.html">Blogs</a> <a href="/blog/feed.xml"><img width="16" src="/images/feedIcon.png" class="feedicon" alt="Feed image"/></a> | <a href="/video/index.html">Videos</a> | <a href="/comics/index.html">Comics</a> <a href="/comics/feed.xml"><img width="16" src="/images/feedIcon.png" class="feedicon" alt="Feed image"/></a> | <a href="/project/index.html">Projects</a> | <a href="https://github.com/DeaDvey/htdocs"><img height="15" src="/images/github.png" alt="Link to github page"/></a> <a href="https://gitlab.com/deadvey/htdocs"><img height="15" src="/images/gitlab.png" alt="Link to gitlab page"/></a> | <input type="text" id="clickableInput" onclick="goToLink('/search')" placeholder="Click to search">
+<a href="/">Home page</a> | <a href="/blog/index.html">Blogs</a> <a href="/blog/feed.xml"><img width="16" src="/images/feedIcon.png" class="feedicon" alt="Feed image"/></a> | <a href="/video/index.html">Videos</a> | <a href="/project/index.html">Projects</a> | <a href="https://github.com/DeaDvey/htdocs"><img height="15" src="/images/github.png" alt="Link to github page"/></a> <a href="https://gitlab.com/deadvey/htdocs"><img height="15" src="/images/gitlab.png" alt="Link to gitlab page"/></a> | <input type="text" id="clickableInput" onclick="goToLink('/search')" placeholder="Click to search">
 
         </div>
         <hr/>
@@ -22,21 +22,18 @@
                 <div class="blog-images">
                     
                   </div><br/>
-				 <sub><i><small>mocks,football,bored,revision,agnes grey</small></i></sub><!--hr/>
-				<h3>Comments section (under construction):</h3><br/>
-				 <form action="" id="commentForm">
-						<input name="12" class="form-control" id="name" placeholder="Enter your name/alias (no login required)..."><br/>
-						<input height="40px" name="12" class="form-control input-comment" id="comment" placeholder="Enter your Comment...">
+				 <sub><i><small>mocks,football,bored,revision,agnes grey</small></i></sub><hr/>
+				 <h3>Comments section:</h3><br/>
+				 <form action="http://deadvey.com/blog/submit-comment" id="commentForm" method="post">
+						<input name="name" class="form-control" id="name" placeholder="Enter your name"><br/>
+						<input height="40px" name="comment" class="form-control input-comment" id="comment" placeholder="Enter your Comment...">
+                                                <input type="hidden" name="pageID" value="12">
 						<button type="submit">Submit</button>
 				</form>
 
-				  <div class="comments"-->
-						<br/>
-				      
-				  </div>
-				</div><p class="previous"><a href="11.html"><-- Previous</a></p><p class="next"><a href="13.html">Next --></a></p>
+				  <div class="12" id="comments"></div></div><p class="previous"><a href="11.html"><-- Previous</a></p><p class="next"><a href="13.html">Next --></a></p>
                 <div id="links">
-                </div><script src="/blog/comments.js"></script><script src="/blog/submit-comment.js"></script></div>
+                </div><script src="/blog/comments.js"></script><script src="/blog/displayComments.js"></script></div>
         <hr/>
         <div class="footer main">
             <ul>

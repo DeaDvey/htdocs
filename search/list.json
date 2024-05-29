@@ -85,7 +85,7 @@
      },
      {
         "id": 14,
-        "name": "Seven Psychopaths",
+        "name": "Seven Psychopaths - 3.5/5",
         "tags": "seven psychopaths,review,film",
         "link": "/blog/blogs/14.html"
      },
@@ -109,8 +109,14 @@
      },
      {
         "id": 18,
+        "name": "The Twelve Tasks of Asterix - 2.5/5",
+        "tags": "review,film,twelve tasks of asterix",
+        "link": "/blog/blogs/18.html"
+     },
+     {
+        "id": 19,
         "name": "Half Term",
         "tags": "update,exam,gcse,website",
-        "link": "/blog/blogs/18.html"
+        "link": "/blog/blogs/19.html"
      }
 ]
