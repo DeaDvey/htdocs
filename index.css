@@ -18,6 +18,10 @@ ul {
 	width: 100%;
 }
 
+img {
+    border: 2px solid #7c6f64;
+}
+
 img:not(.feedicon) {
     max-width: 100%
 }
