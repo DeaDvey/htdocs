@@ -110,7 +110,7 @@
      {
         "id": 18,
         "name": "The Twelve Tasks of Asterix - 2.5/5",
-        "tags": "review,film,twelve tasks of asterix",
+        "tags": "review,film,twelve tasks of asterix,2.5/5,1976",
         "link": "/blog/blogs/18.html"
      },
      {
@@ -124,5 +124,11 @@
         "name": "Website update: Comments",
         "tags": "update,comments,nodejs",
         "link": "/blog/blogs/20.html"
+     },
+     {
+        "id": 21,
+        "name": "Weird: The Al Yankovic Story - 4/5",
+        "tags": "review,film,4/5,shuriken,kinda weird ngl,2022",
+        "link": "/blog/blogs/21.html"
      }
 ]
